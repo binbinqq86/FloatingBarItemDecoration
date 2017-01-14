@@ -147,7 +147,6 @@ public class FloatingItemDecoration extends RecyclerView.ItemDecoration {
         if(flag){
             //还原画布为初始状态
             c.restore();
-            new LinearLayout(mContext).draw(c);
         }
     }
 
