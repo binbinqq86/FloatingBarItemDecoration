@@ -7,6 +7,7 @@ import android.os.Bundle;
 import android.support.v7.widget.GridLayoutManager;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
+import android.util.Log;
 import android.util.TypedValue;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -20,6 +21,7 @@ import java.util.Map;
 import java.util.Random;
 
 public class MainActivity extends AppCompatActivity {
+    private static final String TAG = "MainActivity";
     private Map<Integer,List<String>> datas = new HashMap<>();//模拟服务器返回数据
     private List<String> list=new ArrayList<>();//adapter数据源
     private Map<Integer,String> keys=new HashMap<>();//存放所有key的位置和内容

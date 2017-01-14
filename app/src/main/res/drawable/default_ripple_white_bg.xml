@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright (c) 2016.
+  ~  tianbin
+  -->
+
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:drawable="@android:color/white" android:state_pressed="false"/>
+    <item android:drawable="@color/default_ripple" android:state_pressed="true" />
+</selector>

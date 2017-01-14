@@ -18,6 +18,7 @@ import android.text.TextUtils;
 import android.util.Log;
 import android.util.TypedValue;
 import android.view.View;
+import android.widget.LinearLayout;
 
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -146,6 +147,7 @@ public class FloatingItemDecoration extends RecyclerView.ItemDecoration {
         if(flag){
             //还原画布为初始状态
             c.restore();
+            new LinearLayout(mContext).draw(c);
         }
     }
 
